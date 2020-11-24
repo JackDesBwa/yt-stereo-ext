@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "yt-stereo-ext",
+  "version": "1.0",
+  "description": "This extension tries to get the actual url of YouTube video files and displays a table of found entries.",
+  "homepage_url": "https://github.com/JackDesBwa/yt-stereo-ext",
+  "icons": {
+    "48": "icons/yt-stereo-ext.png"
+  },
+  "permissions": [
+    "activeTab",
+    "https://*/"
+  ],
+  "browser_action": {
+    "default_icon": "icons/yt-stereo-ext.png",
+    "default_title": "yt-stereo-ext",
+    "default_popup": "src/yt-stereo-popup.html"
+  }
+}
